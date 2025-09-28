@@ -81,6 +81,10 @@
     padding: 20px;
     margin: 10px;
 }
+.works_box > div:hover{
+    /*This is numbered circle*/
+    padding: 25px;
+}
 
 
 .about{
