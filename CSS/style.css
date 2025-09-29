@@ -1,3 +1,4 @@
+/*header*/
 .head_h1{
     background-color: #F4F6FF;
     color: black;
@@ -11,12 +12,29 @@
     border-radius: 5px;
     margin: 5px 10px;
 }
+.getstart{
+    background-color: white;
+    box-shadow: 0 0 5px lightskyblue;
+    padding: 10px 10px;
+}
+.getstart:hover{
+    padding: 15px 15px;
+}
+.viewdemo{
+    color:white;
+    background-color: black;
+    padding: 10px 10px;
+}
+.viewdemo:hover{
+    padding: 15px 15px;
+}
 
 
+/*navigation*/
 .nav{
     background-color: #211C84;
     box-shadow: 0 0 2px aqua;
-    padding: 10px;
+    padding: 20px;
     margin: 0;
     text-align: right;
 }
@@ -25,12 +43,20 @@
     background-color: rgb(0, 200, 255);
     color: #0C0950;
     padding: 5px;
+    margin: 5px 5px;
     border: 1px solid aqua;
     border-radius: 5px;
     box-shadow: 0 0 5px aliceblue;
 }
+.nav a:hover{
+    color: #0C0950;
+    padding: 6px;
+    background-color: rgb(80, 214, 252);
+    box-shadow: 0 0 10px rgb(204, 223, 240);
+}
 
 
+/*features*/
 .feature{
     background-color: #090040;
     color: whitesmoke;
@@ -39,8 +65,8 @@
     text-align: center;
 }
 .feat_box{
-    width:250px;
-    height:200px;
+    width:300px;
+    height:250px;
     display:inline-block;
     margin : 15px 8px;
     border-radius: 20px;
@@ -49,15 +75,20 @@
     color: #0065F8;
 }
 .feat_box:hover{
-    width:300px;
-    height:250px;
+    width:350px;
+    height:300px;
     box-shadow: 0 0 15px white;
 }
 .feat_box > img{
-    padding: 10px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    box-shadow: 0 0 10px blue;
+    margin-top: 10px;
 }
 
 
+/*how it works*/
 .works{
     margin:20px;
     padding:10px;
@@ -87,6 +118,7 @@
 }
 
 
+/*footer*/
 .about{
     text-align: center;
     background-color: black;
