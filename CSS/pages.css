@@ -96,9 +96,6 @@
 }
 #loginBut:hover{
     background-color: #01bf01;
-    box-shadow: 0 0 15px #01bf01;
-    color: rgb(255, 255, 255);
-    font-size: xx-large;
     margin-top: 45px;
     padding: 25px;
 }
