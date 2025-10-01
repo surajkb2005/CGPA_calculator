@@ -41,3 +41,64 @@
     font-family:sans-serif;
     padding: 10px;
 }
+
+
+.login_feature{
+    background: linear-gradient(300deg,#31326F,#637AB9,#4FB7B3);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    color: whitesmoke;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+@keyframes login_feature{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.login_feat_box_pages{
+    width: 75%;
+    display:inline-block;
+    margin : 15px 8px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px white;
+    background-color: white;
+    color: #0065F8;
+}
+.login_feat_box_pages > *{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px blue;
+}
+#loginBut{
+    background-color: #00a600;
+    box-shadow: 0 0 15px #01bf01;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    margin-top: 50px;
+    padding: 20px;
+}
+#loginBut:hover{
+    background-color: #01bf01;
+    box-shadow: 0 0 15px #01bf01;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    margin-top: 45px;
+    padding: 25px;
+}
