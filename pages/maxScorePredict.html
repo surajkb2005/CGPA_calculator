@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CGPA CALCULATOR</title>
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/pages.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <script src="../JS/script.js"></script>
 </head>
 <body>
 
@@ -15,8 +17,8 @@
     <div class="nav">
         <span style="color: aliceblue; float: left;">CGPA calculator</span>
         <a href="../index.html">HOME</a>
-        <a href="./pages/calculateCGPA.html">CALCULATE CGPA</a>
-        <a href="./pages/maxScorePredict.html">MAX SCORE PREDICT</a>
+        <a href="./calculateCGPA.html">CALCULATE CGPA</a>
+        <a href="./maxScorePredict.html">MAX SCORE PREDICT</a>
         <a href="#aboutid">ABOUT</a>
         <a href="./login.html">LOGIN</a>
         <a href="">FEEDBACK</a>
@@ -26,22 +28,24 @@
 
     <div class="head_h1">
         <H1>
-            <p style="padding: 20px;">Maximum Score You Can Get</p>
+            <p style="padding: 20px 20px 20px 20px;">Maximum Score You Can Get</p>
         </H1>
+        <img src="../assets/images/predictions.jpg" width="100" height="100" style="border-radius: 5px;"><br>
         <input type="button" value="GET STARTED" class="getstart">
         <input type="button" value="VIEW DEMO" class="viewdemo">
         <br><br><br><br><br>
     </div>
 
     <div class="feature">
-        <h2>Powerful Features for Engineering Students</h2>
-        <h4>Everything you need to track, analyze, and predict your academic performance with precision.</h4>
+        <h2>Predict Now !</h2>
+        <h4>Enter your 50 mark component here.</h4>
 
-        <!--4 boxes-->
-        <div class="feat_box">
-            <img src="./assets/images/results.svg" width="60" height="60" style="border-radius: 5px;">
-            <h2>Instant Results</h2>
-            <p>Get your grades and CGPA calculated instantly with detailed breakdowns</p>
+        <div class="feat_box_pages" style="height: 180px;">
+            <input type="number" min="1" max="50" id="markOutOf50" placeholder="Type Here">
+            <input type="button" value="PREDICT" id="mark50" onclick="predict()">
+        </div>
+        <div class="feat_box_pages prediction" id="displayPrediction" style="height: max-content;">
+            YOUR ANSWER WILL DISPLAY HERE
         </div>
     </div>
 
@@ -53,18 +57,18 @@
         <!--images-->
         <div class="works_box">
             <div>01</div>
-            <h3>Upload Marks</h3>
-            <h4>Enter your subject marks and academic details in our intuitive form.</h4>
+            <h3>Upload CIE Marks</h3>
+            <h4>Enter your CIE marks out of 50 for the subject to be predicted.</h4>
         </div>
         <div class="works_box">
             <div>02</div>
             <h3>AI Analysis</h3>
-            <h4>Our AI analyzes your performances and identifies patterns and trends.</h4>
+            <h4>Our algorithm analyzes your performances and identifies Max score you can get.</h4>
         </div>
         <div class="works_box">
             <div>03</div>
             <h3>Get Predictions</h3>
-            <h4>Recieve detailed results, predictions, and personalized recommendations</h4>
+            <h4>Recieve detailed prediction results and personalized recommendations</h4>
         </div>    
     </div>
     <div class="about" id="aboutid">
