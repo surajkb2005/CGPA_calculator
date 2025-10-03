@@ -43,8 +43,12 @@
 }
 
 
+
+
+
+
 .login_feature{
-    background: linear-gradient(300deg,#31326F,#637AB9,#4FB7B3);
+    background: linear-gradient(300deg,#31326F,#4FB7B3,#A8FBD3);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
     color: whitesmoke;
@@ -95,6 +99,47 @@
     padding: 20px;
 }
 #loginBut:hover{
+    background-color: #01bf01;
+    margin-top: 45px;
+    padding: 25px;
+}
+
+
+
+
+
+.cgpa_feat_box_pages{
+    width: 75%;
+    display:inline-block;
+    margin : 15px 8px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px white;
+    background-color: white;
+    color: #0065F8;
+}
+.cgpa_feat_box_pages > *{
+    width: 20%;
+    margin: 1px 1px 50px 50px;
+    padding: 20px;
+    display: inline;
+    text-align: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px blue;
+}
+#cgpa_But{
+    background-color: #00a600;
+    box-shadow: 0 0 15px #01bf01;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    margin-top: 50px;
+    padding: 20px;
+    width: 100px;
+}
+#cgpa_But:hover{
     background-color: #01bf01;
     margin-top: 45px;
     padding: 25px;

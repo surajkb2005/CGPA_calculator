@@ -1,3 +1,4 @@
+//this is for maxScorePredict.html
 function predict(){
     const markOutOf50var = document.getElementById('markOutOf50');
     const displayPredictionVar = document.getElementById('displayPrediction');
