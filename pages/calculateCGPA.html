@@ -35,15 +35,20 @@
     </div>
 
     <div class="feature">
-        <h2>Enter Your Expected Marks Below</h2>
+        <h2>Enter Your Expected Final Total Marks Below</h2>
 
         <!--4 boxes-->
         <div class="cgpa_feat_box_pages">
-            <input type="text" placeholder="Subject Name">
-           <input type="number" placeholder="Marks out of 100">
-           <input type="number" placeholder="Credits">
-           <input type="button" value="ADD" id="cgpa_But">
+           <input type="text" id="courseid" placeholder="Subject Name">
+           <input type="number" id="marksid" placeholder="Marks out of 100" min="1" max="100">
+           <input type="number" id="creditsid" placeholder="Credits">
+           <input type="button" value="ADD" id="cgpa_But" onclick="additems()">
         </div>
+        <div class="cgpa_feat_box_pages disptable">
+            <table id="tabDisp"></table>
+            <input type="button" value="SUBMIT" onclick="calculatecgpa()">
+        </div>
+        
     </div>
 
     <div class="works">
