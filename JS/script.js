@@ -79,6 +79,7 @@ function predict(){
     }else{
         displayPredictionVar.innerHTML += "<BR>7. Sorry, Passing not possible";
     }
+    displayPredictionVar.innerHTML += "<BR><BR><a href='https://docs.google.com/forms/d/e/1FAIpQLSey_4A2ZWK7PBKjPjkC3Xdc_t84KIYmyoG6Y2I1d7nEcFlxkQ/viewform?usp=sharing&ouid=115287034683301691076'>Give us a Feedback Here</a>"
 }
 
 
