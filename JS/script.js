@@ -87,7 +87,7 @@ function predict(){
 
 
 
-//for calculate cgpa
+//for calculate sgpa
 tdisp = document.getElementById('tabDisp');
 var studDetails = [];
 var idx=1;
@@ -160,5 +160,5 @@ function calculatecgpa(){
     }
 
     console.log("tot = "+tot+" totcredit"+totcredits+"<br>"); //for testing
-    tdisp.innerHTML += "Your Expected CGPA is "+(tot/totcredits);
+    tdisp.innerHTML += "Your Expected SGPA is "+(tot/totcredits);
 }
